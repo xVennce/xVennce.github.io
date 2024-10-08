@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background: #080808;
     color: #fff;
@@ -364,7 +368,6 @@ form .btn2{
 /*-----------contact-----------*/
 
 /*-----------small screen fixes-----------*/
-
 nav .fa-regular{
     display: none;
 }
@@ -458,5 +461,10 @@ nav .fa-solid{
         font-size: 14px;
     }
 }
-
 /*-----------small screen fixes-----------*/
+
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
+}
