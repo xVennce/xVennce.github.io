@@ -14,13 +14,15 @@
             <div class="container">
                 <nav>
                     <img src="images/Lebron.jpeg" class="logo">
-                    <ul>
+                    <ul id="sidemenu">
                         <li><a href ="#">Home</a></li>
                         <li><a href ="#">About</a></li>
                         <li><a href ="#">Services</a></li>
                         <li><a href ="#">Portfolio</a></li>
-                        <li><a href ="#">Contact</a></li>                        
+                        <li><a href ="#">Contact</a></li>  
+                        <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>                      
                     </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
                 </nav>
                 <div class="header-text">
                     <p>UI Desigage</p>
@@ -192,14 +194,18 @@
                 </form>
 
             </div>
-                
         </div>
+    </div>
+    <!--Not sure about this part, ask helper about this-->
+    <div class="copyright">
+        <p>© 2023 UNSURE YET </p>
     </div>
 </div>
 <!-----------contact----------->
 
 <!-----------JS----------->
         <script src="tab-contents-script.js"></script>
+        <script src="open-close-menu.js"></script>
 <!-----------JS----------->
 
     </body>
